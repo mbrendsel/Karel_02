@@ -1,9 +1,9 @@
 /**
 *
-* Description of the program goes here  // provide a brief description
+* An athlete navigates a maze while leaving a trail of beepers
 *
-* @author <Your Name here>  // replace <...> with your name
-* @version <date/of/completion> // replace <...> with the date
+* @author Kent Collins
+* @version 11 November, 2014
 */
 
 import edu.fcps.karel2.Display;
@@ -12,6 +12,47 @@ import edu.fcps.karel2.Robot;
 public class Lab02 {
 
      public static void main(String[] args) {
-          // TODO Your code goes here
+          Display.openWorld("maps/maze.map");
+          Display.setSize(8, 8);
+          Athlete andy = new Athlete();
+          andy.putBeeper();
+          andy.move();
+          andy.putBeeper();
+          andy.turnRight();
+          andy.move();
+          andy.putBeeper();
+          andy.turnRight();
+          andy.move();
+          andy.putBeeper();
+          andy.turnLeft();
+          andy.move();
+          andy.putBeeper();
+          andy.turnLeft();
+          andy.move();
+          andy.putBeeper();
+          andy.turnRight();
+          andy.move();
+          andy.putBeeper();
+          andy.move();
+          andy.putBeeper();
+          andy.turnRight();
+          andy.move();
+          andy.putBeeper();
+          andy.turnLeft();
+          andy.move();
+          andy.putBeeper();
+          andy.turnLeft();
+          andy.move();
+          andy.putBeeper();
+          andy.move();
+          andy.putBeeper();
+          andy.move();
+          andy.putBeeper();
+          andy.move();
+          andy.putBeeper();
+          andy.turnRight();
+          andy.move();
+          andy.putBeeper();
+          andy.move();
      }
 }
