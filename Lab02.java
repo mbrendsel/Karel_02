@@ -1,6 +1,6 @@
 /**
 *
-* Description of the program goes here  // provide a brief description
+* An athlete navigates a maze while leaving a trail of beepers
 *
 * @author <Your Name here>  // replace <...> with your name
 * @version <date/of/completion> // replace <...> with the date
