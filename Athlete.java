@@ -13,8 +13,6 @@ import edu.fcps.karel2.Display;
 
 public class Athlete extends Robot {
 	
-	 public class Athlete extends Robot 
-{
    public Athlete()
   {
      super(1, 1, Display.NORTH, Display.INFINITY);
